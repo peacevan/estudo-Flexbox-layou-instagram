@@ -1,0 +1,160 @@
+
+*{
+    padding :0;
+    margin :0;
+    box-sizing:border-box;
+    text-decoration : none;
+    font-family : sans-serif;
+    font-size:14px;
+}
+
+
+
+.perfil-instagram{
+
+    width: 100px;
+    right: 100px;
+    border-radius: 50%;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+     justify-content: center;
+     padding: 0;
+     margin: 0;
+     align-items: center ;
+}
+.instagram-wrapper{
+    display: flex;
+    align-items: center ;
+    justify-content : start;
+    
+    width:60%;
+    height: 100vh;
+    margin-left: 20%;
+}
+.group{
+background-color:white;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+width: 70%;
+padding: 1.3rem;
+border: 1px solid lightgray;
+align-items: center;
+height: 60%;
+
+}
+
+.group:nth-child(1){
+min-height: 19rem;
+
+
+}
+
+.instagram-phone{
+    display    : flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.instagram-continue{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    flex-direction : column;
+    width : 50%;
+
+}
+.spn{
+font-size: 9px;
+font-weight: 700;
+
+}
+
+.spn2{
+  color: silver;  
+}
+.class-footer{
+align-items: center
+}
+.class-footer a {
+
+font-size: 11px;
+color: lightslategray;
+
+}
+.instagram-login{
+
+    background-color: #0095f6;
+    color: white;
+    border-radius: 4px;
+   
+    padding: 8px;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+}
+.instagram-logo{
+
+    width: 149px;
+}
+
+.class-footer{
+    width: 100%;
+    display: block;
+    margin-top: 0;
+    position: absolute;
+}
+
+
+.instagram-logout{
+    color: #00a1ff;
+    font-size: 9px;
+
+}
+
+/* media queries */
+@media (max-width:1024px) {
+    .instagram-wrapper{
+        width: 90%;
+    }
+    
+}
+
+
+@media (max-width:600px) {
+    .instagram-wrapper{
+        width: 90%;
+    }
+    .group{
+        width: 100%;
+    }
+    .instagram-phone{
+        display: none;
+    }
+    .instagram-continue{
+        width: 100%;
+        margin-bottom: 298px;
+        align-items: center;
+        margin-left: -53px;
+        border: 1px solid #d8caca;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
